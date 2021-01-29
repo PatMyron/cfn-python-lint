@@ -9,18 +9,6 @@
   },
   {
     "op": "remove",
-    "path": "/ResourceTypes/AWS::Config::ConfigRule"
-  },
-  {
-    "op": "remove",
-    "path": "/ResourceTypes/AWS::Config::ConfigurationRecorder"
-  },
-  {
-    "op": "remove",
-    "path": "/ResourceTypes/AWS::Config::DeliveryChannel"
-  },
-  {
-    "op": "remove",
     "path": "/ResourceTypes/AWS::DataPipeline::Pipeline"
   },
   {
@@ -54,6 +42,10 @@
   {
     "op": "remove",
     "path": "/ResourceTypes/AWS::EFS::MountTarget"
+  },
+  {
+    "op": "remove",
+    "path": "/ResourceTypes/AWS::EKS::Cluster"
   },
   {
     "op": "remove",
@@ -202,26 +194,6 @@
   {
     "op": "remove",
     "path": "/PropertyTypes/AWS::CodePipeline::Pipeline.StageTransition"
-  },
-  {
-    "op": "remove",
-    "path": "/PropertyTypes/AWS::Config::ConfigRule.Scope"
-  },
-  {
-    "op": "remove",
-    "path": "/PropertyTypes/AWS::Config::ConfigRule.Source"
-  },
-  {
-    "op": "remove",
-    "path": "/PropertyTypes/AWS::Config::ConfigRule.SourceDetail"
-  },
-  {
-    "op": "remove",
-    "path": "/PropertyTypes/AWS::Config::ConfigurationRecorder.RecordingGroup"
-  },
-  {
-    "op": "remove",
-    "path": "/PropertyTypes/AWS::Config::DeliveryChannel.ConfigSnapshotDeliveryProperties"
   },
   {
     "op": "remove",
@@ -402,6 +374,22 @@
   {
     "op": "remove",
     "path": "/PropertyTypes/AWS::EFS::FileSystem.LifecyclePolicy"
+  },
+  {
+    "op": "remove",
+    "path": "/PropertyTypes/AWS::EKS::Cluster.EncryptionConfig"
+  },
+  {
+    "op": "remove",
+    "path": "/PropertyTypes/AWS::EKS::Cluster.KubernetesNetworkConfig"
+  },
+  {
+    "op": "remove",
+    "path": "/PropertyTypes/AWS::EKS::Cluster.Provider"
+  },
+  {
+    "op": "remove",
+    "path": "/PropertyTypes/AWS::EKS::Cluster.ResourcesVpcConfig"
   },
   {
     "op": "remove",
